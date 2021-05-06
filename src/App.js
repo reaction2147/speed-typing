@@ -1,12 +1,14 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Test</h1>
-      </header>
-    </div>
+    <>
+      <h1>How fast do you type?</h1>
+      <textarea />
+      <h4>Time reminaing: ???</h4>
+      <button>Start</button>
+      <h1>Word count: ???</h1>
+    </>
   );
 }
 
